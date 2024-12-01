@@ -1,0 +1,42 @@
+.home-page {
+    text-align: center;
+    background-color: rgba(95, 158, 160, 0.201);
+  }
+  
+  .jewelry-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+
+  .home-page {
+    padding: 20px;
+}
+
+.jewelry-list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.view-more-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10%;
+}
+
+.view-more-button:hover {
+  background-color: #c7ae6a; 
+}
+
+  
